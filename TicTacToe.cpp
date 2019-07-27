@@ -12,7 +12,8 @@ void display()
     {
         for(int j=0;j<3;j++)
         {
-
+            cout<<board[i][j]<<"|";
         }
+        cout<<endl;
     }
 }
