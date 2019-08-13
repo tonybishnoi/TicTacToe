@@ -1,6 +1,7 @@
 #include<iostream>
 using namespace std;
-string board[3][3];
+char board[3][3];
+int checkwin();
 void display();
 void start();
 int main()
@@ -26,5 +27,13 @@ void start()
         {
             board[i][j]=" ";
         }
+    }
+}
+int checkwin()
+{
+    int result = 0;
+    for(int i=0;i<3;i++)
+    {
+        if(board[i][0]==board[i][1] && board[i][1]==board[i][2] && board[i][2]=='x')
     }
 }
