@@ -24,7 +24,7 @@ void start()
     {
         for(int j=0;j<3;j++)
         {
-            board[i][j]<<" ";
+            board[i][j]=" ";
         }
     }
 }
