@@ -1,6 +1,5 @@
 #include<iostream>
 #include<stdlib.h>
-#include<fstream>
 using namespace std;
 char a[4][4] = { "   ", "   ", "   " };
 void display();
